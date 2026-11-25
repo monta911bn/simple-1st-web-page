@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background: linear-gradient(#B5B9FF, #2B2C49) ;
+    padding: 20px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 25px;
+}
+li a:hover{
+    color: white;
+}
+button{
+    width: 90px;
+    background-color:  rebeccapurple;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  cornsilk;
+    
+    }
+h1{
+    text-align: center;
+    padding: 100px;
+    font-weight: 1000;
+    color: white;
+    
+
+}
+p{text-align: center;
+    padding: 100px;
+    font-weight: 1000;
+    color: white;
+}
+body{
+    background: linear-gradient(#152331, #000000)
+}
+html{
+    scroll-behavior: smooth;
+}
+ion-icon{
+    font-size: 70px;
+    padding: 50;
+
+}
+
+#contact{
+    background: linear-gradient(#6025F5, #FF5555)
+}
+#About{
+    background: linear-gradient(#606c88, #3f4c6b)
+    
+}
+#Plans{
+    background: linear-gradient(#152331, #000000)
+
+}
